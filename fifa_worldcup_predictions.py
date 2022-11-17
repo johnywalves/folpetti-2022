@@ -809,9 +809,6 @@ gs_gbc.fit(train_x, train_y)
 print(gs_gbc.best_estimator_)
 '''
 
-df_schedule_ready = pd.read_csv('schedule_ready.csv')
-df_schedule_ready.dtypes
-
 # Importação do modelo para apreendizado e controlador de várias saídas
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import GradientBoostingClassifier
